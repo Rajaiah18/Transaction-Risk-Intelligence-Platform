@@ -1,0 +1,10 @@
+[
+  {
+    "action_id": "ACT-ANOM-005",
+    "case_id": "CASE-ANOM-005",
+    "analyst_id": "ANALYST-SYNTH-01",
+    "action_type": "CONFIRMED",
+    "action_at": "2025-12-31T00:00:00",
+    "notes": "Planted chronology anomaly for validation testing."
+  }
+]

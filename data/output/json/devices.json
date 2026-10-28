@@ -1,0 +1,502 @@
+[
+  {
+    "device_id": "DEV-00001",
+    "device_type": "MOBILE",
+    "first_seen_at": "2025-05-14T00:00:00"
+  },
+  {
+    "device_id": "DEV-00002",
+    "device_type": "WEB",
+    "first_seen_at": "2025-01-17T00:00:00"
+  },
+  {
+    "device_id": "DEV-00003",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-09-13T00:00:00"
+  },
+  {
+    "device_id": "DEV-00004",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-03-29T00:00:00"
+  },
+  {
+    "device_id": "DEV-00005",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-08-17T00:00:00"
+  },
+  {
+    "device_id": "DEV-00006",
+    "device_type": "MOBILE",
+    "first_seen_at": "2025-12-09T00:00:00"
+  },
+  {
+    "device_id": "DEV-00007",
+    "device_type": "MOBILE",
+    "first_seen_at": "2025-12-13T00:00:00"
+  },
+  {
+    "device_id": "DEV-00008",
+    "device_type": "WEB",
+    "first_seen_at": "2025-05-25T00:00:00"
+  },
+  {
+    "device_id": "DEV-00009",
+    "device_type": "MOBILE",
+    "first_seen_at": "2025-10-07T00:00:00"
+  },
+  {
+    "device_id": "DEV-00010",
+    "device_type": "MOBILE",
+    "first_seen_at": "2025-10-09T00:00:00"
+  },
+  {
+    "device_id": "DEV-00011",
+    "device_type": "MOBILE",
+    "first_seen_at": "2025-09-17T00:00:00"
+  },
+  {
+    "device_id": "DEV-00012",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-10-19T00:00:00"
+  },
+  {
+    "device_id": "DEV-00013",
+    "device_type": "MOBILE",
+    "first_seen_at": "2025-02-24T00:00:00"
+  },
+  {
+    "device_id": "DEV-00014",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-06-19T00:00:00"
+  },
+  {
+    "device_id": "DEV-00015",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-05-20T00:00:00"
+  },
+  {
+    "device_id": "DEV-00016",
+    "device_type": "MOBILE",
+    "first_seen_at": "2025-05-05T00:00:00"
+  },
+  {
+    "device_id": "DEV-00017",
+    "device_type": "WEB",
+    "first_seen_at": "2025-08-14T00:00:00"
+  },
+  {
+    "device_id": "DEV-00018",
+    "device_type": "MOBILE",
+    "first_seen_at": "2025-09-30T00:00:00"
+  },
+  {
+    "device_id": "DEV-00019",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-10-27T00:00:00"
+  },
+  {
+    "device_id": "DEV-00020",
+    "device_type": "WEB",
+    "first_seen_at": "2025-10-31T00:00:00"
+  },
+  {
+    "device_id": "DEV-00021",
+    "device_type": "WEB",
+    "first_seen_at": "2025-07-19T00:00:00"
+  },
+  {
+    "device_id": "DEV-00022",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-05-16T00:00:00"
+  },
+  {
+    "device_id": "DEV-00023",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-07-04T00:00:00"
+  },
+  {
+    "device_id": "DEV-00024",
+    "device_type": "MOBILE",
+    "first_seen_at": "2025-04-17T00:00:00"
+  },
+  {
+    "device_id": "DEV-00025",
+    "device_type": "WEB",
+    "first_seen_at": "2025-02-07T00:00:00"
+  },
+  {
+    "device_id": "DEV-00026",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-09-06T00:00:00"
+  },
+  {
+    "device_id": "DEV-00027",
+    "device_type": "MOBILE",
+    "first_seen_at": "2025-12-05T00:00:00"
+  },
+  {
+    "device_id": "DEV-00028",
+    "device_type": "WEB",
+    "first_seen_at": "2025-08-27T00:00:00"
+  },
+  {
+    "device_id": "DEV-00029",
+    "device_type": "WEB",
+    "first_seen_at": "2025-03-29T00:00:00"
+  },
+  {
+    "device_id": "DEV-00030",
+    "device_type": "MOBILE",
+    "first_seen_at": "2025-11-12T00:00:00"
+  },
+  {
+    "device_id": "DEV-00031",
+    "device_type": "MOBILE",
+    "first_seen_at": "2025-12-28T00:00:00"
+  },
+  {
+    "device_id": "DEV-00032",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-08-09T00:00:00"
+  },
+  {
+    "device_id": "DEV-00033",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-02-16T00:00:00"
+  },
+  {
+    "device_id": "DEV-00034",
+    "device_type": "MOBILE",
+    "first_seen_at": "2025-01-20T00:00:00"
+  },
+  {
+    "device_id": "DEV-00035",
+    "device_type": "WEB",
+    "first_seen_at": "2025-12-16T00:00:00"
+  },
+  {
+    "device_id": "DEV-00036",
+    "device_type": "MOBILE",
+    "first_seen_at": "2025-12-11T00:00:00"
+  },
+  {
+    "device_id": "DEV-00037",
+    "device_type": "WEB",
+    "first_seen_at": "2025-06-26T00:00:00"
+  },
+  {
+    "device_id": "DEV-00038",
+    "device_type": "MOBILE",
+    "first_seen_at": "2025-12-27T00:00:00"
+  },
+  {
+    "device_id": "DEV-00039",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-10-29T00:00:00"
+  },
+  {
+    "device_id": "DEV-00040",
+    "device_type": "WEB",
+    "first_seen_at": "2025-04-16T00:00:00"
+  },
+  {
+    "device_id": "DEV-00041",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-02-10T00:00:00"
+  },
+  {
+    "device_id": "DEV-00042",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-09-24T00:00:00"
+  },
+  {
+    "device_id": "DEV-00043",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-11-14T00:00:00"
+  },
+  {
+    "device_id": "DEV-00044",
+    "device_type": "WEB",
+    "first_seen_at": "2025-12-11T00:00:00"
+  },
+  {
+    "device_id": "DEV-00045",
+    "device_type": "MOBILE",
+    "first_seen_at": "2025-04-14T00:00:00"
+  },
+  {
+    "device_id": "DEV-00046",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-12-26T00:00:00"
+  },
+  {
+    "device_id": "DEV-00047",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-11-27T00:00:00"
+  },
+  {
+    "device_id": "DEV-00048",
+    "device_type": "WEB",
+    "first_seen_at": "2025-11-30T00:00:00"
+  },
+  {
+    "device_id": "DEV-00049",
+    "device_type": "MOBILE",
+    "first_seen_at": "2025-10-16T00:00:00"
+  },
+  {
+    "device_id": "DEV-00050",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-04-28T00:00:00"
+  },
+  {
+    "device_id": "DEV-00051",
+    "device_type": "MOBILE",
+    "first_seen_at": "2025-10-30T00:00:00"
+  },
+  {
+    "device_id": "DEV-00052",
+    "device_type": "MOBILE",
+    "first_seen_at": "2025-04-04T00:00:00"
+  },
+  {
+    "device_id": "DEV-00053",
+    "device_type": "WEB",
+    "first_seen_at": "2025-02-05T00:00:00"
+  },
+  {
+    "device_id": "DEV-00054",
+    "device_type": "MOBILE",
+    "first_seen_at": "2025-01-15T00:00:00"
+  },
+  {
+    "device_id": "DEV-00055",
+    "device_type": "MOBILE",
+    "first_seen_at": "2025-12-09T00:00:00"
+  },
+  {
+    "device_id": "DEV-00056",
+    "device_type": "WEB",
+    "first_seen_at": "2025-06-12T00:00:00"
+  },
+  {
+    "device_id": "DEV-00057",
+    "device_type": "WEB",
+    "first_seen_at": "2025-11-07T00:00:00"
+  },
+  {
+    "device_id": "DEV-00058",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-03-19T00:00:00"
+  },
+  {
+    "device_id": "DEV-00059",
+    "device_type": "WEB",
+    "first_seen_at": "2025-05-17T00:00:00"
+  },
+  {
+    "device_id": "DEV-00060",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-06-24T00:00:00"
+  },
+  {
+    "device_id": "DEV-00061",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-08-08T00:00:00"
+  },
+  {
+    "device_id": "DEV-00062",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-09-21T00:00:00"
+  },
+  {
+    "device_id": "DEV-00063",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-09-01T00:00:00"
+  },
+  {
+    "device_id": "DEV-00064",
+    "device_type": "WEB",
+    "first_seen_at": "2025-12-03T00:00:00"
+  },
+  {
+    "device_id": "DEV-00065",
+    "device_type": "MOBILE",
+    "first_seen_at": "2025-11-16T00:00:00"
+  },
+  {
+    "device_id": "DEV-00066",
+    "device_type": "MOBILE",
+    "first_seen_at": "2025-03-01T00:00:00"
+  },
+  {
+    "device_id": "DEV-00067",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-01-25T00:00:00"
+  },
+  {
+    "device_id": "DEV-00068",
+    "device_type": "WEB",
+    "first_seen_at": "2025-08-06T00:00:00"
+  },
+  {
+    "device_id": "DEV-00069",
+    "device_type": "WEB",
+    "first_seen_at": "2025-08-07T00:00:00"
+  },
+  {
+    "device_id": "DEV-00070",
+    "device_type": "WEB",
+    "first_seen_at": "2025-10-24T00:00:00"
+  },
+  {
+    "device_id": "DEV-00071",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-07-17T00:00:00"
+  },
+  {
+    "device_id": "DEV-00072",
+    "device_type": "WEB",
+    "first_seen_at": "2025-09-24T00:00:00"
+  },
+  {
+    "device_id": "DEV-00073",
+    "device_type": "MOBILE",
+    "first_seen_at": "2025-06-30T00:00:00"
+  },
+  {
+    "device_id": "DEV-00074",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-05-07T00:00:00"
+  },
+  {
+    "device_id": "DEV-00075",
+    "device_type": "MOBILE",
+    "first_seen_at": "2025-04-07T00:00:00"
+  },
+  {
+    "device_id": "DEV-00076",
+    "device_type": "MOBILE",
+    "first_seen_at": "2025-12-29T00:00:00"
+  },
+  {
+    "device_id": "DEV-00077",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-02-21T00:00:00"
+  },
+  {
+    "device_id": "DEV-00078",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-06-22T00:00:00"
+  },
+  {
+    "device_id": "DEV-00079",
+    "device_type": "MOBILE",
+    "first_seen_at": "2025-05-26T00:00:00"
+  },
+  {
+    "device_id": "DEV-00080",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-05-20T00:00:00"
+  },
+  {
+    "device_id": "DEV-00081",
+    "device_type": "WEB",
+    "first_seen_at": "2025-09-21T00:00:00"
+  },
+  {
+    "device_id": "DEV-00082",
+    "device_type": "WEB",
+    "first_seen_at": "2025-05-06T00:00:00"
+  },
+  {
+    "device_id": "DEV-00083",
+    "device_type": "MOBILE",
+    "first_seen_at": "2025-04-15T00:00:00"
+  },
+  {
+    "device_id": "DEV-00084",
+    "device_type": "MOBILE",
+    "first_seen_at": "2025-09-10T00:00:00"
+  },
+  {
+    "device_id": "DEV-00085",
+    "device_type": "WEB",
+    "first_seen_at": "2025-01-15T00:00:00"
+  },
+  {
+    "device_id": "DEV-00086",
+    "device_type": "MOBILE",
+    "first_seen_at": "2025-03-23T00:00:00"
+  },
+  {
+    "device_id": "DEV-00087",
+    "device_type": "MOBILE",
+    "first_seen_at": "2025-05-15T00:00:00"
+  },
+  {
+    "device_id": "DEV-00088",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-09-03T00:00:00"
+  },
+  {
+    "device_id": "DEV-00089",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-05-02T00:00:00"
+  },
+  {
+    "device_id": "DEV-00090",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-09-04T00:00:00"
+  },
+  {
+    "device_id": "DEV-00091",
+    "device_type": "MOBILE",
+    "first_seen_at": "2025-09-30T00:00:00"
+  },
+  {
+    "device_id": "DEV-00092",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-04-22T00:00:00"
+  },
+  {
+    "device_id": "DEV-00093",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-11-28T00:00:00"
+  },
+  {
+    "device_id": "DEV-00094",
+    "device_type": "MOBILE",
+    "first_seen_at": "2025-08-29T00:00:00"
+  },
+  {
+    "device_id": "DEV-00095",
+    "device_type": "WEB",
+    "first_seen_at": "2025-07-08T00:00:00"
+  },
+  {
+    "device_id": "DEV-00096",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-10-23T00:00:00"
+  },
+  {
+    "device_id": "DEV-00097",
+    "device_type": "WEB",
+    "first_seen_at": "2025-01-06T00:00:00"
+  },
+  {
+    "device_id": "DEV-00098",
+    "device_type": "TABLET",
+    "first_seen_at": "2025-08-27T00:00:00"
+  },
+  {
+    "device_id": "DEV-00099",
+    "device_type": "WEB",
+    "first_seen_at": "2025-06-12T00:00:00"
+  },
+  {
+    "device_id": "DEV-00100",
+    "device_type": "WEB",
+    "first_seen_at": "2025-12-24T00:00:00"
+  }
+]

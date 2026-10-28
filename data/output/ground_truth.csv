@@ -1,0 +1,6 @@
+anomaly_id,entity_type,entity_id,anomaly_type,description,expected_detection,seed
+ANOM-001,transaction,TXN-ANOM-001,CLOSED_ACCOUNT_TRANSACTION,Transaction occurred after the account closure time.,Transaction time is later than account closed_at.,20261022
+ANOM-002,transaction,TXN-2026-00023570,OVERDRAFT_VIOLATION,Balance falls below the configured overdraft limit.,balance_after is less than negative overdraft_limit.,20261022
+ANOM-003,transfer,TRF-ANOM-003,TRANSFER_AMOUNT_MISMATCH,Transfer source amount is 111.00; destination is 222.00.,Source and destination amounts should match.,20261022
+ANOM-004,alert,ALT-ANOM-004,ORPHAN_ALERT,Alert intentionally has no transaction reference.,Alert transaction_id is NULL.,20261022
+ANOM-005,case,CASE-ANOM-005,DISPOSITION_BEFORE_ALERT,Case disposition action predates the linked alert.,Analyst action time is earlier than alert creation time.,20261022

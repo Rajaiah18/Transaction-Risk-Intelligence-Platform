@@ -1,0 +1,2 @@
+transfer_id,source_transaction_id,destination_transaction_id,created_at,issue_type
+TRF-ANOM-003,TXN-ANOM-003-SRC,TXN-ANOM-003-DST,2026-03-10T12:00:00,TRANSFER_AMOUNT_MISMATCH

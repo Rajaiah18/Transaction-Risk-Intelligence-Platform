@@ -1,0 +1,2 @@
+action_id,case_id,analyst_id,action_type,action_at,notes
+ACT-ANOM-005,CASE-ANOM-005,ANALYST-SYNTH-01,CONFIRMED,2025-12-31T00:00:00,Planted chronology anomaly for validation testing.

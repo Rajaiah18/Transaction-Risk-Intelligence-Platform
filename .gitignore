@@ -1,0 +1,28 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# IDE and operating system
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local SQLite database
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# Logs
+*.log
+# Old backup file
+src/generator_backup.py

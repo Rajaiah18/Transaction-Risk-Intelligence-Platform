@@ -1,0 +1,602 @@
+[
+  {
+    "merchant_id": "MER-0001",
+    "merchant_name": "Synthetic Merchant 0001",
+    "merchant_category": "GROCERY",
+    "country_code": "IN"
+  },
+  {
+    "merchant_id": "MER-0002",
+    "merchant_name": "Synthetic Merchant 0002",
+    "merchant_category": "GROCERY",
+    "country_code": "IN"
+  },
+  {
+    "merchant_id": "MER-0003",
+    "merchant_name": "Synthetic Merchant 0003",
+    "merchant_category": "RETAIL",
+    "country_code": "SG"
+  },
+  {
+    "merchant_id": "MER-0004",
+    "merchant_name": "Synthetic Merchant 0004",
+    "merchant_category": "FOOD",
+    "country_code": "IN"
+  },
+  {
+    "merchant_id": "MER-0005",
+    "merchant_name": "Synthetic Merchant 0005",
+    "merchant_category": "GROCERY",
+    "country_code": "SG"
+  },
+  {
+    "merchant_id": "MER-0006",
+    "merchant_name": "Synthetic Merchant 0006",
+    "merchant_category": "FOOD",
+    "country_code": "SG"
+  },
+  {
+    "merchant_id": "MER-0007",
+    "merchant_name": "Synthetic Merchant 0007",
+    "merchant_category": "FOOD",
+    "country_code": "SG"
+  },
+  {
+    "merchant_id": "MER-0008",
+    "merchant_name": "Synthetic Merchant 0008",
+    "merchant_category": "GROCERY",
+    "country_code": "SG"
+  },
+  {
+    "merchant_id": "MER-0009",
+    "merchant_name": "Synthetic Merchant 0009",
+    "merchant_category": "FOOD",
+    "country_code": "US"
+  },
+  {
+    "merchant_id": "MER-0010",
+    "merchant_name": "Synthetic Merchant 0010",
+    "merchant_category": "FOOD",
+    "country_code": "SG"
+  },
+  {
+    "merchant_id": "MER-0011",
+    "merchant_name": "Synthetic Merchant 0011",
+    "merchant_category": "RETAIL",
+    "country_code": "US"
+  },
+  {
+    "merchant_id": "MER-0012",
+    "merchant_name": "Synthetic Merchant 0012",
+    "merchant_category": "RETAIL",
+    "country_code": "SG"
+  },
+  {
+    "merchant_id": "MER-0013",
+    "merchant_name": "Synthetic Merchant 0013",
+    "merchant_category": "FOOD",
+    "country_code": "GB"
+  },
+  {
+    "merchant_id": "MER-0014",
+    "merchant_name": "Synthetic Merchant 0014",
+    "merchant_category": "DIGITAL",
+    "country_code": "IN"
+  },
+  {
+    "merchant_id": "MER-0015",
+    "merchant_name": "Synthetic Merchant 0015",
+    "merchant_category": "UTILITIES",
+    "country_code": "US"
+  },
+  {
+    "merchant_id": "MER-0016",
+    "merchant_name": "Synthetic Merchant 0016",
+    "merchant_category": "TRAVEL",
+    "country_code": "US"
+  },
+  {
+    "merchant_id": "MER-0017",
+    "merchant_name": "Synthetic Merchant 0017",
+    "merchant_category": "UTILITIES",
+    "country_code": "IN"
+  },
+  {
+    "merchant_id": "MER-0018",
+    "merchant_name": "Synthetic Merchant 0018",
+    "merchant_category": "TRAVEL",
+    "country_code": "IN"
+  },
+  {
+    "merchant_id": "MER-0019",
+    "merchant_name": "Synthetic Merchant 0019",
+    "merchant_category": "DIGITAL",
+    "country_code": "GB"
+  },
+  {
+    "merchant_id": "MER-0020",
+    "merchant_name": "Synthetic Merchant 0020",
+    "merchant_category": "UTILITIES",
+    "country_code": "SG"
+  },
+  {
+    "merchant_id": "MER-0021",
+    "merchant_name": "Synthetic Merchant 0021",
+    "merchant_category": "GROCERY",
+    "country_code": "GB"
+  },
+  {
+    "merchant_id": "MER-0022",
+    "merchant_name": "Synthetic Merchant 0022",
+    "merchant_category": "FOOD",
+    "country_code": "US"
+  },
+  {
+    "merchant_id": "MER-0023",
+    "merchant_name": "Synthetic Merchant 0023",
+    "merchant_category": "GROCERY",
+    "country_code": "US"
+  },
+  {
+    "merchant_id": "MER-0024",
+    "merchant_name": "Synthetic Merchant 0024",
+    "merchant_category": "GROCERY",
+    "country_code": "IN"
+  },
+  {
+    "merchant_id": "MER-0025",
+    "merchant_name": "Synthetic Merchant 0025",
+    "merchant_category": "TRAVEL",
+    "country_code": "SG"
+  },
+  {
+    "merchant_id": "MER-0026",
+    "merchant_name": "Synthetic Merchant 0026",
+    "merchant_category": "DIGITAL",
+    "country_code": "GB"
+  },
+  {
+    "merchant_id": "MER-0027",
+    "merchant_name": "Synthetic Merchant 0027",
+    "merchant_category": "FOOD",
+    "country_code": "US"
+  },
+  {
+    "merchant_id": "MER-0028",
+    "merchant_name": "Synthetic Merchant 0028",
+    "merchant_category": "TRAVEL",
+    "country_code": "GB"
+  },
+  {
+    "merchant_id": "MER-0029",
+    "merchant_name": "Synthetic Merchant 0029",
+    "merchant_category": "GROCERY",
+    "country_code": "SG"
+  },
+  {
+    "merchant_id": "MER-0030",
+    "merchant_name": "Synthetic Merchant 0030",
+    "merchant_category": "DIGITAL",
+    "country_code": "SG"
+  },
+  {
+    "merchant_id": "MER-0031",
+    "merchant_name": "Synthetic Merchant 0031",
+    "merchant_category": "FOOD",
+    "country_code": "IN"
+  },
+  {
+    "merchant_id": "MER-0032",
+    "merchant_name": "Synthetic Merchant 0032",
+    "merchant_category": "GROCERY",
+    "country_code": "IN"
+  },
+  {
+    "merchant_id": "MER-0033",
+    "merchant_name": "Synthetic Merchant 0033",
+    "merchant_category": "FOOD",
+    "country_code": "IN"
+  },
+  {
+    "merchant_id": "MER-0034",
+    "merchant_name": "Synthetic Merchant 0034",
+    "merchant_category": "GROCERY",
+    "country_code": "SG"
+  },
+  {
+    "merchant_id": "MER-0035",
+    "merchant_name": "Synthetic Merchant 0035",
+    "merchant_category": "TRAVEL",
+    "country_code": "US"
+  },
+  {
+    "merchant_id": "MER-0036",
+    "merchant_name": "Synthetic Merchant 0036",
+    "merchant_category": "DIGITAL",
+    "country_code": "GB"
+  },
+  {
+    "merchant_id": "MER-0037",
+    "merchant_name": "Synthetic Merchant 0037",
+    "merchant_category": "DIGITAL",
+    "country_code": "SG"
+  },
+  {
+    "merchant_id": "MER-0038",
+    "merchant_name": "Synthetic Merchant 0038",
+    "merchant_category": "FOOD",
+    "country_code": "SG"
+  },
+  {
+    "merchant_id": "MER-0039",
+    "merchant_name": "Synthetic Merchant 0039",
+    "merchant_category": "DIGITAL",
+    "country_code": "GB"
+  },
+  {
+    "merchant_id": "MER-0040",
+    "merchant_name": "Synthetic Merchant 0040",
+    "merchant_category": "UTILITIES",
+    "country_code": "SG"
+  },
+  {
+    "merchant_id": "MER-0041",
+    "merchant_name": "Synthetic Merchant 0041",
+    "merchant_category": "GROCERY",
+    "country_code": "US"
+  },
+  {
+    "merchant_id": "MER-0042",
+    "merchant_name": "Synthetic Merchant 0042",
+    "merchant_category": "RETAIL",
+    "country_code": "GB"
+  },
+  {
+    "merchant_id": "MER-0043",
+    "merchant_name": "Synthetic Merchant 0043",
+    "merchant_category": "GROCERY",
+    "country_code": "US"
+  },
+  {
+    "merchant_id": "MER-0044",
+    "merchant_name": "Synthetic Merchant 0044",
+    "merchant_category": "RETAIL",
+    "country_code": "SG"
+  },
+  {
+    "merchant_id": "MER-0045",
+    "merchant_name": "Synthetic Merchant 0045",
+    "merchant_category": "UTILITIES",
+    "country_code": "SG"
+  },
+  {
+    "merchant_id": "MER-0046",
+    "merchant_name": "Synthetic Merchant 0046",
+    "merchant_category": "FOOD",
+    "country_code": "GB"
+  },
+  {
+    "merchant_id": "MER-0047",
+    "merchant_name": "Synthetic Merchant 0047",
+    "merchant_category": "UTILITIES",
+    "country_code": "SG"
+  },
+  {
+    "merchant_id": "MER-0048",
+    "merchant_name": "Synthetic Merchant 0048",
+    "merchant_category": "UTILITIES",
+    "country_code": "IN"
+  },
+  {
+    "merchant_id": "MER-0049",
+    "merchant_name": "Synthetic Merchant 0049",
+    "merchant_category": "RETAIL",
+    "country_code": "IN"
+  },
+  {
+    "merchant_id": "MER-0050",
+    "merchant_name": "Synthetic Merchant 0050",
+    "merchant_category": "TRAVEL",
+    "country_code": "SG"
+  },
+  {
+    "merchant_id": "MER-0051",
+    "merchant_name": "Synthetic Merchant 0051",
+    "merchant_category": "RETAIL",
+    "country_code": "SG"
+  },
+  {
+    "merchant_id": "MER-0052",
+    "merchant_name": "Synthetic Merchant 0052",
+    "merchant_category": "UTILITIES",
+    "country_code": "SG"
+  },
+  {
+    "merchant_id": "MER-0053",
+    "merchant_name": "Synthetic Merchant 0053",
+    "merchant_category": "UTILITIES",
+    "country_code": "IN"
+  },
+  {
+    "merchant_id": "MER-0054",
+    "merchant_name": "Synthetic Merchant 0054",
+    "merchant_category": "RETAIL",
+    "country_code": "US"
+  },
+  {
+    "merchant_id": "MER-0055",
+    "merchant_name": "Synthetic Merchant 0055",
+    "merchant_category": "TRAVEL",
+    "country_code": "SG"
+  },
+  {
+    "merchant_id": "MER-0056",
+    "merchant_name": "Synthetic Merchant 0056",
+    "merchant_category": "DIGITAL",
+    "country_code": "US"
+  },
+  {
+    "merchant_id": "MER-0057",
+    "merchant_name": "Synthetic Merchant 0057",
+    "merchant_category": "FOOD",
+    "country_code": "US"
+  },
+  {
+    "merchant_id": "MER-0058",
+    "merchant_name": "Synthetic Merchant 0058",
+    "merchant_category": "UTILITIES",
+    "country_code": "GB"
+  },
+  {
+    "merchant_id": "MER-0059",
+    "merchant_name": "Synthetic Merchant 0059",
+    "merchant_category": "UTILITIES",
+    "country_code": "IN"
+  },
+  {
+    "merchant_id": "MER-0060",
+    "merchant_name": "Synthetic Merchant 0060",
+    "merchant_category": "TRAVEL",
+    "country_code": "GB"
+  },
+  {
+    "merchant_id": "MER-0061",
+    "merchant_name": "Synthetic Merchant 0061",
+    "merchant_category": "UTILITIES",
+    "country_code": "US"
+  },
+  {
+    "merchant_id": "MER-0062",
+    "merchant_name": "Synthetic Merchant 0062",
+    "merchant_category": "UTILITIES",
+    "country_code": "IN"
+  },
+  {
+    "merchant_id": "MER-0063",
+    "merchant_name": "Synthetic Merchant 0063",
+    "merchant_category": "UTILITIES",
+    "country_code": "IN"
+  },
+  {
+    "merchant_id": "MER-0064",
+    "merchant_name": "Synthetic Merchant 0064",
+    "merchant_category": "GROCERY",
+    "country_code": "US"
+  },
+  {
+    "merchant_id": "MER-0065",
+    "merchant_name": "Synthetic Merchant 0065",
+    "merchant_category": "RETAIL",
+    "country_code": "SG"
+  },
+  {
+    "merchant_id": "MER-0066",
+    "merchant_name": "Synthetic Merchant 0066",
+    "merchant_category": "RETAIL",
+    "country_code": "SG"
+  },
+  {
+    "merchant_id": "MER-0067",
+    "merchant_name": "Synthetic Merchant 0067",
+    "merchant_category": "DIGITAL",
+    "country_code": "GB"
+  },
+  {
+    "merchant_id": "MER-0068",
+    "merchant_name": "Synthetic Merchant 0068",
+    "merchant_category": "TRAVEL",
+    "country_code": "GB"
+  },
+  {
+    "merchant_id": "MER-0069",
+    "merchant_name": "Synthetic Merchant 0069",
+    "merchant_category": "DIGITAL",
+    "country_code": "IN"
+  },
+  {
+    "merchant_id": "MER-0070",
+    "merchant_name": "Synthetic Merchant 0070",
+    "merchant_category": "GROCERY",
+    "country_code": "US"
+  },
+  {
+    "merchant_id": "MER-0071",
+    "merchant_name": "Synthetic Merchant 0071",
+    "merchant_category": "GROCERY",
+    "country_code": "SG"
+  },
+  {
+    "merchant_id": "MER-0072",
+    "merchant_name": "Synthetic Merchant 0072",
+    "merchant_category": "FOOD",
+    "country_code": "GB"
+  },
+  {
+    "merchant_id": "MER-0073",
+    "merchant_name": "Synthetic Merchant 0073",
+    "merchant_category": "RETAIL",
+    "country_code": "IN"
+  },
+  {
+    "merchant_id": "MER-0074",
+    "merchant_name": "Synthetic Merchant 0074",
+    "merchant_category": "DIGITAL",
+    "country_code": "US"
+  },
+  {
+    "merchant_id": "MER-0075",
+    "merchant_name": "Synthetic Merchant 0075",
+    "merchant_category": "GROCERY",
+    "country_code": "US"
+  },
+  {
+    "merchant_id": "MER-0076",
+    "merchant_name": "Synthetic Merchant 0076",
+    "merchant_category": "DIGITAL",
+    "country_code": "US"
+  },
+  {
+    "merchant_id": "MER-0077",
+    "merchant_name": "Synthetic Merchant 0077",
+    "merchant_category": "GROCERY",
+    "country_code": "GB"
+  },
+  {
+    "merchant_id": "MER-0078",
+    "merchant_name": "Synthetic Merchant 0078",
+    "merchant_category": "DIGITAL",
+    "country_code": "SG"
+  },
+  {
+    "merchant_id": "MER-0079",
+    "merchant_name": "Synthetic Merchant 0079",
+    "merchant_category": "GROCERY",
+    "country_code": "GB"
+  },
+  {
+    "merchant_id": "MER-0080",
+    "merchant_name": "Synthetic Merchant 0080",
+    "merchant_category": "TRAVEL",
+    "country_code": "US"
+  },
+  {
+    "merchant_id": "MER-0081",
+    "merchant_name": "Synthetic Merchant 0081",
+    "merchant_category": "GROCERY",
+    "country_code": "SG"
+  },
+  {
+    "merchant_id": "MER-0082",
+    "merchant_name": "Synthetic Merchant 0082",
+    "merchant_category": "DIGITAL",
+    "country_code": "SG"
+  },
+  {
+    "merchant_id": "MER-0083",
+    "merchant_name": "Synthetic Merchant 0083",
+    "merchant_category": "TRAVEL",
+    "country_code": "US"
+  },
+  {
+    "merchant_id": "MER-0084",
+    "merchant_name": "Synthetic Merchant 0084",
+    "merchant_category": "RETAIL",
+    "country_code": "SG"
+  },
+  {
+    "merchant_id": "MER-0085",
+    "merchant_name": "Synthetic Merchant 0085",
+    "merchant_category": "TRAVEL",
+    "country_code": "GB"
+  },
+  {
+    "merchant_id": "MER-0086",
+    "merchant_name": "Synthetic Merchant 0086",
+    "merchant_category": "GROCERY",
+    "country_code": "IN"
+  },
+  {
+    "merchant_id": "MER-0087",
+    "merchant_name": "Synthetic Merchant 0087",
+    "merchant_category": "RETAIL",
+    "country_code": "IN"
+  },
+  {
+    "merchant_id": "MER-0088",
+    "merchant_name": "Synthetic Merchant 0088",
+    "merchant_category": "GROCERY",
+    "country_code": "US"
+  },
+  {
+    "merchant_id": "MER-0089",
+    "merchant_name": "Synthetic Merchant 0089",
+    "merchant_category": "DIGITAL",
+    "country_code": "SG"
+  },
+  {
+    "merchant_id": "MER-0090",
+    "merchant_name": "Synthetic Merchant 0090",
+    "merchant_category": "DIGITAL",
+    "country_code": "IN"
+  },
+  {
+    "merchant_id": "MER-0091",
+    "merchant_name": "Synthetic Merchant 0091",
+    "merchant_category": "FOOD",
+    "country_code": "GB"
+  },
+  {
+    "merchant_id": "MER-0092",
+    "merchant_name": "Synthetic Merchant 0092",
+    "merchant_category": "FOOD",
+    "country_code": "IN"
+  },
+  {
+    "merchant_id": "MER-0093",
+    "merchant_name": "Synthetic Merchant 0093",
+    "merchant_category": "UTILITIES",
+    "country_code": "IN"
+  },
+  {
+    "merchant_id": "MER-0094",
+    "merchant_name": "Synthetic Merchant 0094",
+    "merchant_category": "DIGITAL",
+    "country_code": "SG"
+  },
+  {
+    "merchant_id": "MER-0095",
+    "merchant_name": "Synthetic Merchant 0095",
+    "merchant_category": "DIGITAL",
+    "country_code": "IN"
+  },
+  {
+    "merchant_id": "MER-0096",
+    "merchant_name": "Synthetic Merchant 0096",
+    "merchant_category": "RETAIL",
+    "country_code": "US"
+  },
+  {
+    "merchant_id": "MER-0097",
+    "merchant_name": "Synthetic Merchant 0097",
+    "merchant_category": "DIGITAL",
+    "country_code": "IN"
+  },
+  {
+    "merchant_id": "MER-0098",
+    "merchant_name": "Synthetic Merchant 0098",
+    "merchant_category": "UTILITIES",
+    "country_code": "GB"
+  },
+  {
+    "merchant_id": "MER-0099",
+    "merchant_name": "Synthetic Merchant 0099",
+    "merchant_category": "DIGITAL",
+    "country_code": "IN"
+  },
+  {
+    "merchant_id": "MER-0100",
+    "merchant_name": "Synthetic Merchant 0100",
+    "merchant_category": "DIGITAL",
+    "country_code": "US"
+  }
+]

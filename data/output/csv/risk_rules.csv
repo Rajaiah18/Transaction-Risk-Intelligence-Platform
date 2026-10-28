@@ -1,0 +1,6 @@
+rule_id,rule_name,description,threshold,risk_points,is_active,effective_from,effective_to
+RULE-001,High transaction amount,Flag transactions above a configured amount.,1000.0,30,1,2026-01-01T00:00:00,
+RULE-002,Repeated transaction activity,Flag accounts with unusually frequent transactions.,5.0,25,1,2026-01-01T00:00:00,
+RULE-003,High-risk customer profile,Increase review priority for high-risk KYC profiles.,,20,1,2026-01-01T00:00:00,
+RULE-004,Dormant account activity,Flag transactions associated with dormant accounts.,,35,1,2026-01-01T00:00:00,
+RULE-005,New device activity,Flag transactions from recently observed devices.,,15,1,2026-01-01T00:00:00,

@@ -1,0 +1,52 @@
+[
+  {
+    "rule_id": "RULE-001",
+    "rule_name": "High transaction amount",
+    "description": "Flag transactions above a configured amount.",
+    "threshold": 1000.0,
+    "risk_points": 30,
+    "is_active": 1,
+    "effective_from": "2026-01-01T00:00:00",
+    "effective_to": null
+  },
+  {
+    "rule_id": "RULE-002",
+    "rule_name": "Repeated transaction activity",
+    "description": "Flag accounts with unusually frequent transactions.",
+    "threshold": 5.0,
+    "risk_points": 25,
+    "is_active": 1,
+    "effective_from": "2026-01-01T00:00:00",
+    "effective_to": null
+  },
+  {
+    "rule_id": "RULE-003",
+    "rule_name": "High-risk customer profile",
+    "description": "Increase review priority for high-risk KYC profiles.",
+    "threshold": null,
+    "risk_points": 20,
+    "is_active": 1,
+    "effective_from": "2026-01-01T00:00:00",
+    "effective_to": null
+  },
+  {
+    "rule_id": "RULE-004",
+    "rule_name": "Dormant account activity",
+    "description": "Flag transactions associated with dormant accounts.",
+    "threshold": null,
+    "risk_points": 35,
+    "is_active": 1,
+    "effective_from": "2026-01-01T00:00:00",
+    "effective_to": null
+  },
+  {
+    "rule_id": "RULE-005",
+    "rule_name": "New device activity",
+    "description": "Flag transactions from recently observed devices.",
+    "threshold": null,
+    "risk_points": 15,
+    "is_active": 1,
+    "effective_from": "2026-01-01T00:00:00",
+    "effective_to": null
+  }
+]
