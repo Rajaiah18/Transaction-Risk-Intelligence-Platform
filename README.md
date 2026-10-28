@@ -1,90 +1,150 @@
-
 # Transaction Risk Intelligence Platform
 
-A reproducible transaction-risk analytics project that generates synthetic financial data, evaluates transactions using transparent risk rules, creates alerts and investigation cases, and validates intentionally injected data-quality anomalies.
+A reproducible transaction-risk analytics platform that generates synthetic financial data, evaluates transactions using transparent risk rules, creates risk alerts and investigation cases, and validates intentionally injected data-quality anomalies.
 
 ## Features
 
-- Synthetic customers, accounts, merchants, devices, and transactions
-- KYC profiles and configurable risk rules
-- Rule-based transaction risk alerts
-- Case creation and alert-to-case relationships
-- Intentional anomaly injection and ground-truth tracking
-- Database integrity and transaction balance validation
-- CSV, JSON, and SQL data exports
-- Automated tests
+- Generates synthetic customers, accounts, merchants, devices, and transactions.
+- Maintains KYC profiles and configurable risk rules.
+- Detects transaction risks using rule-based evaluation.
+- Creates alerts and links them to investigation cases.
+- Injects known data-quality anomalies for testing.
+- Validates database integrity and transaction balances.
+- Exports database tables to CSV, JSON, and SQL formats.
+- Provides a Streamlit dashboard for exploring risk data and alerts.
+- Includes automated unit tests.
 
 ## Technology Stack
 
 - Python
-- SQLite
-- SQL
-- Streamlit (dashboard)
+- SQLite and SQL
+- Streamlit
+- Pandas
 - CSV and JSON
 
 ## Project Structure
 
-- `src/` — data generation, risk evaluation, case management, validation, and exports
-- `schema/` — database schema
-- `tests/` — automated tests
-- `data/` — generated database and exported datasets
-
-## Setup
-
-Create and activate a Python virtual environment:
-
-```bash
-python -m venv .venv
+```text
+Transaction-Risk-Intelligence-Platform/
+├── src/                  # Application and data pipeline
+├── schema/               # Database schema
+├── tests/                # Automated tests
+├── docs/                 # Data dictionary and validation summary
+├── data/output/          # Generated CSV, JSON, and SQL exports
+├── requirements.txt      # Python dependencies
+├── .gitignore
+└── README.md
 ```
 
-Windows PowerShell:
+The local SQLite database and Python virtual environment are excluded from Git.
+
+## Prerequisites
+
+- Python 3.11 or a compatible Python version
+- Git
+- pip
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Rajaiah18/Transaction-Risk-Intelligence-Platform.git
+cd Transaction-Risk-Intelligence-Platform
+```
+
+Create and activate a virtual environment on Windows PowerShell:
 
 ```powershell
+python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
 
-Install the required packages after creating `requirements.txt`:
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Generate Data
+## Run the Dashboard
 
-The generator uses a fixed seed for reproducibility.
+Start the Streamlit application:
+
+```bash
+streamlit run src/app.py
+```
+
+Open the local URL displayed in the terminal, usually `http://localhost:8501`.
+
+## Data Generation and Pipeline
+
+The generator uses a fixed random seed (`20261022`) to support reproducible synthetic datasets.
+
+**Warning:** The `--reset` option rebuilds the database and removes existing generated data. Use it only when you intend to start a fresh dataset.
+
+To rebuild the dataset and run the pipeline from the beginning, execute these commands separately and in order:
 
 ```bash
 python -m src.generator --customers 5000 --accounts 7000 --transactions 100000 --reset
-```
-
-**Warning:** The `--reset` option regenerates the database and removes existing generated data. Do not use it on your current dataset unless you intend to rebuild the full pipeline.
-
-## Run the Pipeline
-
-```bash
 python -m src.add_reference_data
-python -m src.check_data
+python -m src.inject_anomalies
 python -m src.risk_engine
 python -m src.case_manager
 python -m src.validate_data
 python -m src.export_data
 ```
 
-For the complete anomaly-injection workflow, run `python -m src.inject_anomalies` only once after generating a fresh baseline dataset. Do not rerun it on an already-injected database.
+Run each command only after the preceding command completes successfully. The anomaly-injection script is intended to run once per fresh baseline dataset; do not rerun it against a database that already contains the injected anomalies.
 
-## Run Automated Tests
+## Automated Tests
+
+Run the tests from the project root:
 
 ```bash
 python -m unittest discover -s tests -v
 ```
 
-## Validation
+The current test suite contains three tests covering:
 
-The validation process checks foreign-key integrity, transaction balance arithmetic, closed-account transactions, overdraft violations, transfer mismatches, orphan alerts, and case actions that precede linked alerts.
+- Presence of the five intentional anomalies.
+- Foreign-key integrity.
+- Transaction balance consistency.
 
-## Reproducibility
+**Latest recorded result:** All three tests passed.
 
-The data-generation seed is `20261022`. Generated data and intentional anomalies are designed to support repeatable validation and analysis.
+## Validation Results
+
+The current generated dataset contains:
+
+| Metric | Count |
+|---|---:|
+| Customers | 5,000 |
+| Accounts | 7,000 |
+| Transactions | 100,003 |
+| Alerts | 33,588 |
+| Cases | 33,589 |
+
+The validator checks:
+
+- Foreign-key violations
+- Transaction balance mismatches
+- Transactions occurring after account closure
+- Negative balances beyond overdraft limits
+- Mismatched transfer legs
+- Alerts without triggering transactions
+- Case actions occurring before linked alerts
+- Cases without linked alerts
+
+The current dataset contains five deliberately injected anomalies, with one occurrence in each of the five anomaly categories. Foreign-key violations, transaction balance mismatches, and cases without linked alerts are zero.
+
+See [`docs/validation_summary.md`](docs/validation_summary.md) for the validation details and [`docs/data_dictionary.md`](docs/data_dictionary.md) for the dataset and field descriptions.
+
+## Reproducibility and Data Safety
+
+- The synthetic data generator uses seed `20261022`.
+- The dataset includes deliberately injected anomalies for validation and demonstration.
+- Generated CSV, JSON, and SQL exports are stored under `data/output/`.
+- The local database is not committed to the repository.
 
 ## Disclaimer
 
