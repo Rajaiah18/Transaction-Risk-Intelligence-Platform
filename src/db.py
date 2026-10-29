@@ -20,27 +20,37 @@ def initialize_database():
     DATABASE_PATH.parent.mkdir(parents=True, exist_ok=True)
 
     if not SCHEMA_PATH.exists():
-        raise FileNotFoundError(
-            f"Schema file not found: {SCHEMA_PATH}"
-        )
+        raise FileNotFoundError(f"Missing schema file: {SCHEMA_PATH}")
+
+    if not SEED_SQL_PATH.exists():
+        raise FileNotFoundError(f"Missing seed file: {SEED_SQL_PATH}")
+
+    schema_sql = SCHEMA_PATH.read_text(encoding="utf-8")
+    seed_sql = SEED_SQL_PATH.read_text(encoding="utf-8")
+
+    # Extract INSERT statements, ignoring CREATE TABLE and transaction commands.
+    insert_statements = []
+    for statement in seed_sql.split(";"):
+        statement = statement.strip()
+        if statement.upper().startswith("INSERT INTO"):
+            insert_statements.append(statement + ";")
 
     with get_connection() as connection:
-        schema_sql = SCHEMA_PATH.read_text(encoding="utf-8")
         connection.executescript(schema_sql)
 
-        # Load sample data only if the customers table is empty.
         customer_count = connection.execute(
             "SELECT COUNT(*) FROM customers"
         ).fetchone()[0]
 
         if customer_count == 0:
-            if not SEED_SQL_PATH.exists():
-                raise FileNotFoundError(
-                    f"Seed SQL file not found: {SEED_SQL_PATH}"
-                )
+            if not insert_statements:
+                raise ValueError("No INSERT statements found in seed SQL.")
 
-            seed_sql = SEED_SQL_PATH.read_text(encoding="utf-8")
-            connection.executescript(seed_sql)
+            connection.executescript(
+                "BEGIN TRANSACTION;\n"
+                + "\n".join(insert_statements)
+                + "\nCOMMIT;"
+            )
 
     print(f"Database initialized: {DATABASE_PATH}")
 
