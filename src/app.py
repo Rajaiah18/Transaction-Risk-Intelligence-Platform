@@ -3,6 +3,12 @@ import streamlit as st
 import pandas as pd
 
 from src.db import get_connection
+import sys
+from pathlib import Path
+
+ROOT_DIR = Path(__file__).resolve().parent.parent
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
 
 st.set_page_config(
     page_title="Transaction Risk Intelligence",
